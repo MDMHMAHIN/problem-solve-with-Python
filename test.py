@@ -1,12 +1,10 @@
-movies = []
+list1 = [1,2,3,2,1]
 
-movie1 = str(input("Enter a movie:"))
-movie2 = str(input("Enter a movie:"))
-movie3 = str(input("Enter a movie:"))
+copyList1 = list1.copy()
+copyList1.reverse()
 
+if(list1 == copyList1):
+    print("a palindrome")
 
-
-movies.append(movie1)
-movies.append(movie2)
-movies.append(movie3)
-print(movies)
+else:
+    print("Not a palindrome")
