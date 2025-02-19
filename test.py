@@ -1,6 +1,12 @@
-x = int(input("Enter a number:"))
-if(x % 7 == 0):
-    print(x,"multiple of 7")
+movies = []
 
-else:
-    print(x,"not multiple of 7")
+movie1 = str(input("Enter a movie:"))
+movie2 = str(input("Enter a movie:"))
+movie3 = str(input("Enter a movie:"))
+
+
+
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+print(movies)

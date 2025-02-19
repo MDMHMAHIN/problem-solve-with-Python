@@ -36,3 +36,22 @@ if(x % 7 == 0):
 
 else:
     print(x,"not multiple of 7")
+
+
+#4 WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
+
+
+movies = []
+
+movie1 = str(input("Enter a movie:"))
+movie2 = str(input("Enter a movie:"))
+movie3 = str(input("Enter a movie:"))
+
+
+
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+print(movies)
+
+
