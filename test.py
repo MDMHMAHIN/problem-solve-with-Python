@@ -1,10 +1,5 @@
-list1 = [1,2,3,2,1]
+grade = ["A","B","A","B","C","A","A","B","C","D"]
 
-copyList1 = list1.copy()
-copyList1.reverse()
+grade.sort()
 
-if(list1 == copyList1):
-    print("a palindrome")
-
-else:
-    print("Not a palindrome")
+print (grade)

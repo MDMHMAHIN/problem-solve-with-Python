@@ -69,3 +69,29 @@ if(list1 == copyList1):
 
 else:
     print("Not a palindrome")
+
+
+#6 WAP to count the number of students with the “A” grade in the following tuple.
+
+grade = ("A","B","A","B","c","A")
+
+print (grade.count("A"))
+
+
+#7 Store the above values in a list & sort them from “A” to “D”
+
+grade = ["A","B","A","B","C","A","A","B","C","D"]
+
+grade.sort()
+
+print (grade)
+
+
+
+
+
+
+
+
+
+
